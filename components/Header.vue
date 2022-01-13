@@ -17,9 +17,7 @@
                 </b-row>
               </b-navbar-brand>
             </b-navbar>
-
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav style="margin-left: 10%; padding-top: 2.5rem;">
                 <b-nav-item href="#">Магазины</b-nav-item>
@@ -41,14 +39,12 @@
               Шоппинг <br>
               В Центре Города
             </p>
-
             <p
               style="font-size: 18px; font-family: 'Open Sans', sans-serif; font-weight: 400; color: white; line-height: 1.3; padding-top: 1rem">
               Приходите в ТЦ Александровский <br>
               Пассаж на шопинг, который больше <br>
               не найдете нигде в городе!
             </p>
-
             <b-row style="padding-top: 20px">
               <b-col cols="12" xl="6">
                 <div>
@@ -74,9 +70,7 @@
         </b-row>
       </b-col>
       <b-col class="right-block" cols="12" lg="7"></b-col>
-
     </b-row>
-
   </b-container>
 </template>
 
