@@ -4,6 +4,7 @@
     <Advantages/>
     <Shops/>
     <Sales/>
+    <News/>
   </div>
 </template>
 
