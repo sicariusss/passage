@@ -33,7 +33,7 @@
       </b-row>
       <b-col class="left-block" cols="12" lg="5">
         <b-row style="padding-top: 10rem; padding-right: 2rem">
-          <b-col offset-xl="4" offset="1" offset-md="0" cols="12" xl="8">
+          <b-col class="left-block-text" cols="12" xl="8">
             <p class="header-title">
               Стильный <br>
               Шоппинг <br>
@@ -74,8 +74,14 @@
   </b-container>
 </template>
 
+<script>
+export default {
+  name: "Header"
+}
+</script>
+
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -206,5 +212,15 @@ a.nav-link {
 
 a.nav-link:hover {
   text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+.left-block-text {
+  margin-left: 7%;
+}
+
+@media (min-width: 1400px) {
+  .left-block-text {
+    margin-left: 33.333333%;
+  }
 }
 </style>

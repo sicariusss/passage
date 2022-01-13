@@ -1,5 +1,8 @@
 <template>
-  <Header/>
+  <div>
+    <Header/>
+    <Advantages/>
+  </div>
 </template>
 
 <script>

@@ -1,0 +1,104 @@
+<template>
+  <b-container fluid>
+    <b-row class="advantages-row justify-content-center">
+      <b-col cols="8">
+        <b-row>
+          <b-col cols="3">
+            <b-row class="first-advantage">
+              <b-col cols="3">
+                <b-img width="43px" height="45px" src="/t-shirt.png"></b-img>
+              </b-col>
+              <b-col cols="9">
+                <div class="advantage-title">
+                  Уникальные бренды
+                </div>
+                <div class="advantage-desc">
+                  Описание приемущества
+                  Описание приемущества
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+          <b-col cols="3">
+            <b-row class="second-advantage">
+              <b-col cols="3">
+                <b-img width="48px" height="40px" src="/booking.svg"></b-img>
+              </b-col>
+              <b-col cols="9">
+                <div class="advantage-title">
+                  ONLINE бронирование
+                </div>
+                <div class="advantage-desc">
+                  Описание приемущества
+                  Описание приемущества
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+          <b-col cols="3">
+            <b-row class="third-advantage">
+              <b-col cols="3">
+                <b-img width="41px" height="41px" src="/gift.svg"></b-img>
+              </b-col>
+              <b-col cols="9">
+                <div class="advantage-title">
+                  Акции и подарки
+                </div>
+                <div class="advantage-desc">
+                  Описание приемущества
+                  Описание приемущества
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+          <b-col cols="3">
+            <b-row class="fourth-advantage">
+              <b-col cols="3">
+                <b-img width="51px" height="43px" src="/parking.svg"></b-img>
+              </b-col>
+              <b-col cols="9">
+                <div class="advantage-title">
+                  Большая парковка
+                </div>
+                <div class="advantage-desc">
+                  Описание приемущества
+                  Описание приемущества
+                </div>
+              </b-col>
+            </b-row>
+          </b-col>
+        </b-row>
+      </b-col>
+    </b-row>
+  </b-container>
+</template>
+
+<script>
+export default {
+  name: "Advantages"
+}
+</script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.advantages-row {
+  height: 300px;
+  align-content: center;
+}
+
+.advantage-title {
+  color: #191919;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.advantage-desc {
+  color: #525252;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+</style>
