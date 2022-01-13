@@ -3,6 +3,7 @@
     <Header/>
     <Advantages/>
     <Shops/>
+    <Sales/>
   </div>
 </template>
 
