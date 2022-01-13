@@ -3,8 +3,10 @@
     <b-row>
       <b-row style="position: absolute; z-index: 1">
         <div>
+          <!--Навбар-->
           <b-navbar class="navbar-dark" toggleable="lg">
             <b-navbar>
+              <!--Иконка с названием в навбаре-->
               <b-navbar-brand href="#">
                 <b-row class="nav-row">
                   <b-col cols="1">
@@ -18,6 +20,7 @@
               </b-navbar-brand>
             </b-navbar>
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <!--Итемы навбара-->
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav style="margin-left: 10%; padding-top: 2.5rem;">
                 <b-nav-item href="#">Магазины</b-nav-item>
@@ -34,17 +37,20 @@
       <b-col class="left-block" cols="12" lg="5">
         <b-row style="padding-top: 10rem; padding-right: 2rem">
           <b-col class="left-block-text" cols="12" xl="8">
+            <!--Заголовок-->
             <p class="header-title">
               Стильный <br>
               Шоппинг <br>
               В Центре Города
             </p>
+            <!--Описание-->
             <p
               style="font-size: 18px; font-family: 'Open Sans', sans-serif; font-weight: 400; color: white; line-height: 1.3; padding-top: 1rem">
               Приходите в ТЦ Александровский <br>
               Пассаж на шопинг, который больше <br>
               не найдете нигде в городе!
             </p>
+            <!--Время и адрес-->
             <b-row style="padding-top: 20px">
               <b-col cols="12" xl="6">
                 <div>

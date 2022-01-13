@@ -2,6 +2,7 @@
   <div>
     <Header/>
     <Advantages/>
+    <Shops/>
   </div>
 </template>
 

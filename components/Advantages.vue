@@ -4,6 +4,7 @@
       <b-col cols="8">
         <b-row>
           <b-col cols="3">
+            <!--Первое преимущество-->
             <b-row class="first-advantage">
               <b-col cols="3">
                 <b-img width="43px" height="45px" src="/t-shirt.png"></b-img>
@@ -20,6 +21,7 @@
             </b-row>
           </b-col>
           <b-col cols="3">
+            <!--Второе преимущество-->
             <b-row class="second-advantage">
               <b-col cols="3">
                 <b-img width="48px" height="40px" src="/booking.svg"></b-img>
@@ -36,6 +38,7 @@
             </b-row>
           </b-col>
           <b-col cols="3">
+            <!--Третье преимущество-->
             <b-row class="third-advantage">
               <b-col cols="3">
                 <b-img width="41px" height="41px" src="/gift.svg"></b-img>
@@ -52,6 +55,7 @@
             </b-row>
           </b-col>
           <b-col cols="3">
+            <!--Четвертое преимущество-->
             <b-row class="fourth-advantage">
               <b-col cols="3">
                 <b-img width="51px" height="43px" src="/parking.svg"></b-img>
