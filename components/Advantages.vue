@@ -3,7 +3,7 @@
     <b-row class="advantages-row justify-content-center">
       <b-col cols="8">
         <b-row>
-          <b-col cols="3">
+          <b-col xl="3" md="6" cols="12">
             <!--Первое преимущество-->
             <b-row class="first-advantage">
               <b-col cols="3">
@@ -20,7 +20,7 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="3">
+          <b-col xl="3" md="6" cols="12">
             <!--Второе преимущество-->
             <b-row class="second-advantage">
               <b-col cols="3">
@@ -37,7 +37,7 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="3">
+          <b-col xl="3" md="6" cols="12">
             <!--Третье преимущество-->
             <b-row class="third-advantage">
               <b-col cols="3">
@@ -54,7 +54,7 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="3">
+          <b-col xl="3" md="6" cols="12">
             <!--Четвертое преимущество-->
             <b-row class="fourth-advantage">
               <b-col cols="3">
@@ -88,7 +88,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 .advantages-row {
-  height: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   align-content: center;
 }
 
@@ -104,5 +105,17 @@ export default {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+  .third-advantage, .fourth-advantage {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .second-advantage {
+    padding-top: 30px;
+  }
 }
 </style>

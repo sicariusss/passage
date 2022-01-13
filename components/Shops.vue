@@ -28,8 +28,8 @@
           </div>
         </b-row>
         <b-row class="justify-content-center">
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -46,8 +46,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -64,8 +64,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -82,8 +82,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -100,8 +100,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -118,8 +118,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -146,8 +146,8 @@
           </div>
         </b-row>
         <b-row class="justify-content-center pt-3">
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -164,8 +164,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -182,8 +182,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -200,8 +200,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -218,8 +218,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -236,8 +236,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -264,8 +264,8 @@
           </div>
         </b-row>
         <b-row class="justify-content-center pt-3 pb-3">
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -282,8 +282,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -300,8 +300,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -318,8 +318,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -336,8 +336,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -354,8 +354,8 @@
               </b-col>
             </b-row>
           </b-col>
-          <b-col cols="2">
-            <b-row class="justify-content-center">
+          <b-col xl="2" md="4" sm="6" cols="12">
+            <b-row class="shop-logo justify-content-center">
               <div>
                 <b-img width="118px" height="37px" src="/monro.svg"></b-img>
               </div>
@@ -408,6 +408,7 @@ export default {
   font-weight: 600;
   font-size: 16px;
   margin-left: 15px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
@@ -418,6 +419,7 @@ export default {
   font-weight: 600;
   font-size: 16px;
   margin-left: 15px;
+  margin-top: 15px;
   cursor: pointer;
   background-color: #1B3359;
   color: white;
@@ -449,5 +451,11 @@ export default {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #525252;
+}
+
+@media (max-width: 1200px) {
+  .shop-logo {
+    padding-top: 30px;
+  }
 }
 </style>
