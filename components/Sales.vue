@@ -1,7 +1,7 @@
 <template>
   <b-container fluid class="sales-block">
     <b-row class="justify-content-center pt-5 pb-5">
-      <b-col cols="8">
+      <b-col cols="10" md="8">
         <b-row class="justify-content-center align-content-between pt-5 pb-5">
           <b-col xl="4" md="6" cols="12">
             <!--Заголовок-->
@@ -99,9 +99,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 .sales-block {
   background: url("/sales-bg.svg") top center no-repeat;
   background-size: cover;

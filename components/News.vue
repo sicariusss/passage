@@ -1,14 +1,15 @@
 <template>
   <b-container fluid class="pb-5">
     <b-row class="justify-content-center pt-5 pb-5">
-      <b-col cols="8">
+      <b-col cols="10" md="8">
         <b-row class="justify-content-center pt-5 pb-5">
           <div class="news-block-title">
             Новости Александровского Пассажа
           </div>
         </b-row>
-        <div>
-          <VueSlickCarousel v-bind="settings" ref="carousel">
+        <!--Карусель для разрешения от 1200 и больше -->
+        <div v-if="windowWidth >= 1200">
+          <VueSlickCarousel v-bind="bigSettings" ref="carousel">
             <div>
               <div class="news-image-block">
                 <b-img class="news-image" src="/news1.png"></b-img>
@@ -48,7 +49,124 @@
                 <p class="news-title">
                   Друзья, ТЦ Александровский Пассаж обновляется для вас!
                 </p>
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+              </div>
+            </div>
+          </VueSlickCarousel>
+        </div>
+        <!--Карусель для разрешения от 800px до 1200px -->
+        <div v-else-if="windowWidth < 1200 && windowWidth >= 800">
+          <VueSlickCarousel v-bind="smallSettings" ref="carousel">
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
 
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+              </div>
+            </div>
+          </VueSlickCarousel>
+        </div>
+        <!--Карусель для разрешения до 800px-->
+        <div v-else-if="windowWidth < 800">
+          <VueSlickCarousel v-bind="smolSettings" ref="carousel">
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
+
+              </div>
+            </div>
+            <div>
+              <div class="news-image-block">
+                <b-img class="news-image" src="/news1.png"></b-img>
+                <!--Дата-->
+                <div class="news-date py-3">
+                  12 апреля 2021 - 20 апреля 2012
+                </div>
+                <!--Заголовок новости-->
+                <p class="news-title">
+                  Друзья, ТЦ Александровский Пассаж обновляется для вас!
+                </p>
               </div>
             </div>
             <div>
@@ -81,7 +199,8 @@ export default {
   components: {VueSlickCarousel},
   data() {
     return {
-      settings: {
+      windowWidth: global.innerWidth,
+      bigSettings: {
         "dots": true,
         "infinite": true,
         "initialSlide": 2,
@@ -90,15 +209,35 @@ export default {
         "slidesToScroll": 3,
         "swipeToSlide": true
       },
+      smallSettings: {
+        "dots": true,
+        "infinite": true,
+        "initialSlide": 2,
+        "speed": 500,
+        "slidesToShow": 2,
+        "slidesToScroll": 2,
+        "swipeToSlide": true
+      },
+      smolSettings: {
+        "dots": true,
+        "infinite": true,
+        "initialSlide": 2,
+        "speed": 500,
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "swipeToSlide": true
+      },
     }
   },
+  mounted() {
+    window.onresize = () => {
+      this.windowWidth = window.innerWidth
+    }
+  }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 .news-date {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -162,12 +301,77 @@ export default {
 .slick-prev {
   left: -2rem;
   z-index: 2;
-  top: 10rem;
+  top: 50%;
 }
 
 .slick-next {
   right: 2rem;
   z-index: 2;
-  top: 10rem;
+  top: 50%;
+}
+
+@media (max-width: 2500px) {
+  .slick-prev {
+    top: 40%;
+  }
+
+  .slick-next {
+    top: 40%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .slick-prev {
+    top: 30%;
+    left: -2.5rem;
+  }
+
+  .slick-next {
+    top: 30%;
+    right: 1rem;
+  }
+
+  .news-block-title {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .news-block-title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .news-image-block {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .news-block-title {
+    font-size: 35px;
+    margin-left: 5%;
+  }
+
+  .news-date {
+    font-size: 12px;
+  }
+
+  .news-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .news-block-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .news-block-title {
+    font-size: 25px;
+  }
 }
 </style>
