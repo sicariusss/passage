@@ -112,6 +112,8 @@ export default {
 @media (max-width: 400px) {
   .ig-block {
     left: 3%;
+    position: unset;
+    margin-bottom: -13rem;
   }
 }
 
