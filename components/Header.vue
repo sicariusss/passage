@@ -19,7 +19,20 @@
                 </b-row>
               </b-navbar-brand>
             </b-navbar>
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <!--Навбар для телефонов-->
+            <b-navbar-toggle target="sidebar-nav"></b-navbar-toggle>
+            <div>
+              <b-sidebar id="sidebar-nav" text-variant="light"  shadow>
+                <div class="mobile-nav px-3 py-2">
+                  <a href="#">Магазины</a>
+                  <a href="#">Образы</a>
+                  <a href="#">Новости</a>
+                  <a href="#">Места</a>
+                  <a href="#">Арендатору</a>
+                  <a href="#">Контакты</a>
+                </div>
+              </b-sidebar>
+            </div>
             <!--Итемы навбара-->
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav style="margin-left: 10%; padding-top: 2.5rem;">
@@ -225,4 +238,30 @@ a.nav-link:hover {
     margin-left: 33.333333%;
   }
 }
+
+#sidebar-nav {
+  background: url("/header-bg1.svg") no-repeat;
+  background-size: cover;
+}
+
+#sidebar-nav .b-sidebar-header button svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.mobile-nav a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+.mobile-nav a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
 </style>
